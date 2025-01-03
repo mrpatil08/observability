@@ -12,6 +12,13 @@
 -  OpenTelemetry unified these by standardizing how telemetry data is collected and exported.
 - Prior to OpenTelemetry, there were OpenTracing and OpenCensus, which OpenTelemetry merged to provide a more comprehensive and standardized observability solution.
 
+## Key Components:
+    - SDKs: Libraries for applications to instrument and collect data.
+    - Collector: A service to receive, process, and export data to observability platforms.
+    - APIs: Standard interfaces for integrating OpenTelemetry into applications.
+
+![OpenTelemetry FlowChart](images/OpenTelemetryFlowChart.png)
+
 ## 🌐 Supported Programming Languages
 
 OpenTelemetry supports several languages, including:
